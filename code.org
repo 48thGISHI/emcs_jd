@@ -1,0 +1,8 @@
+;; C-c ' otwiera kod w nowym oknie, dla ³atwiejszej edycji,po zmianie powtarzemy kombinacjê aby powrocic do normanego widoku.
+;; Export dispatcher C-c e (albo C-e)
+#+BEGIN_SRC emacs-lisp
+  (+(+ 3 5)2)
+#+END_SRC
+
+#+RESULTS:
+: 10
