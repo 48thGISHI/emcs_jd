@@ -1,11 +1,11 @@
 
 
 * asdasdasd 
-*** 
-   ASFD
+** 
+    ASFD
 **** 
 asfas
- 
+<<t2arget>>
 *** asd
 asdasdas
 asdasd
@@ -20,3 +20,41 @@ asdas
 
 * TODO Ale JAZDA
   asdas
+* 
+EXTERNAL LINK
+[[https://www.gnu.org/software/emacs/][GNU Emacs] ]
+Powstaje --> [[https://www.gnu.org/software/emacs/][GNU Emacs]]
+
+
+INTERNAL LINK
+[[t2arget] ]
+ [[t2arget][kliknij_mnie_damo]]
+
+* CODE
+** LISP
+#+BEGIN_SRC emacs-lisp
+  (defun org-xor (a b)
+     "Exclusive or."
+     (if a (not b) b))
+#+END_SRC
+
+** PYTHON
+
+[[https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html]]
+# blank lines not OK in indented blocks, and don't use return()
+# Source block is passed directly to interactive python;
+# value is value of _ at end.
+#+begin_src python :session
+def foo(x):
+  if x>0:
+    return x+1
+  else:
+    return x-1
+
+foo(1)
+#+end_src
+
+
+
+
+
